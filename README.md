@@ -1,6 +1,10 @@
 ## UnBot for AzerothCore Module
 
-/// I am working on translating to English. However, I dont know Chinese..
+///////////////////////////////////////
+
+I am trying to translate this addon to English for a small project, however, I dont speak or read chinese.
+
+//////////////////////////////////////
 
 
 A robot control plug-in modified based on the UnBot plug-in. As a supporting plug-in for the AzerothCore robot module, it is convenient for players to control robots.
