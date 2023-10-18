@@ -15,7 +15,7 @@
 					GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT");
 					GameTooltip:SetHyperlink("item:"..tostring(self.item[3])..":0:0:0:0:0:0:0");
 					GameTooltip:AddLine(" ",1,1,1,1);
-					GameTooltip:AddLine("鼠标左键单击：让 "..self.targetName.." 装备这个道具。",0.75,0.75,0,1);
+					GameTooltip:AddLine("left mouse click： "..self.targetName.." Equip this item。",0.75,0.75,0,1);
 					GameTooltip:Show();
 				end
 			</OnEnter>
@@ -109,7 +109,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentLabel" font="Fonts\blei00d.TTF" text="装备穿戴选择">
+            <FontString name="$parentLabel" font="Fonts\blei00d.TTF" text="Equipment wearing options">
               <Anchors>
                 <Anchor point="TOPLEFT" />
                 <Anchor point="BOTTOMRIGHT" />
