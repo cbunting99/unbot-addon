@@ -1,22 +1,22 @@
 ﻿
 local function GetClassFlag(className)
-	if (className == "戰士") then
+	if (className == "warrior") then
 		return 1;
-	elseif (className == "聖騎士") then
+	elseif (className == "Paladin") then
 		return 2;
-	elseif (className == "盜賊") then
+	elseif (className == "thief") then
 		return 3;
-	elseif (className == "德魯伊") then
+	elseif (className == "Druid") then
 		return 4;
-	elseif (className == "獵人") then
+	elseif (className == "hunter") then
 		return 5;
-	elseif (className == "薩滿") then
+	elseif (className == "shaman") then
 		return 6;
-	elseif (className == "法師") then
+	elseif (className == "mage") then
 		return 7;
-	elseif (className == "術士") then
+	elseif (className == "Warlock") then
 		return 8;
-	elseif (className == "牧師") then
+	elseif (className == "pastor") then
 		return 9;
 	else
 		return nil;
@@ -36,7 +36,7 @@ local function CreateStrategyFrame(name)
 	strategyFrame.title = strategyFrame:CreateFontString(strategyFrame:GetName().."Title","ARTWORK");
 	strategyFrame.title:SetFont([[Fonts\ZYHei.ttf]],24);
 	strategyFrame.title:SetTextColor(1,0,1,1);
-	strategyFrame.title:SetText("|cff00ffff"..name.."|r".."策略编辑器");
+	strategyFrame.title:SetText("|cff00ffff"..name.."|r".."Policy Editor");
 	strategyFrame.title:SetPoint("TOP",strategyFrame,"TOP",0,5);
 	strategyFrame.title:SetShadowColor(0,0,0);
 	strategyFrame.title:SetShadowOffset(1,-1);
@@ -44,7 +44,7 @@ local function CreateStrategyFrame(name)
 	strategyFrame.leftText = strategyFrame:CreateFontString(strategyFrame:GetName().."LeftText","ARTWORK");
 	strategyFrame.leftText:SetFont([[Fonts\ZYHei.ttf]],24);
 	strategyFrame.leftText:SetTextColor(1,0,0,1);
-	strategyFrame.leftText:SetText("战斗策略");
+	strategyFrame.leftText:SetText("battle strategy");
 	strategyFrame.leftText:SetPoint("CENTER",strategyFrame,"TOPLEFT",80,-52);
 	strategyFrame.leftText:SetShadowColor(0,0,0);
 	strategyFrame.leftText:SetShadowOffset(1,-1);
@@ -52,7 +52,7 @@ local function CreateStrategyFrame(name)
 	strategyFrame.rightText = strategyFrame:CreateFontString(strategyFrame:GetName().."RightText","ARTWORK");
 	strategyFrame.rightText:SetFont([[Fonts\ZYHei.ttf]],24);
 	strategyFrame.rightText:SetTextColor(0,1,0,1);
-	strategyFrame.rightText:SetText("非战斗策略");
+	strategyFrame.rightText:SetText("non-combat strategy");
 	strategyFrame.rightText:SetPoint("CENTER",strategyFrame,"TOPRIGHT",-85,-52);
 	strategyFrame.rightText:SetShadowColor(0,0,0);
 	strategyFrame.rightText:SetShadowOffset(1,-1);
@@ -223,18 +223,18 @@ function StrategyOption_OnEnter(btn, name, use, strategyType, data)
 	GameTooltip:SetOwner(btn, "ANCHOR_TOPRIGHT");
 	GameTooltip:AddLine(data[2],1,1,1,1);
 	if (use) then
-		GameTooltip:AddLine(" 已激活",0,0,1,1);
+		GameTooltip:AddLine(" activated",0,0,1,1);
 	else
-		GameTooltip:AddLine(" 未激活",1,0,0,1);
+		GameTooltip:AddLine(" inactivated",1,0,0,1);
 	end
 	GameTooltip:AddLine(data[3],0,1,0,1);
-	GameTooltip:AddLine("有些策略对某些职业无效，即使激活了这些策略，也会被机器人拒绝掉，并且某些策略是相互排斥的。",1,0.5,0,1);
+	GameTooltip:AddLine("Some strategies are ineffective for certain professions and will be rejected by bots even if they are activated, and some strategies are mutually exclusive.",1,0.5,0,1);
 	GameTooltip:AddLine(" ",1,1,1,1);
-	GameTooltip:AddDoubleLine(" 执行命令：",data[1],0,0.85,0.85,0,0.85,0.85);
+	GameTooltip:AddDoubleLine(" Excuting an order：",data[1],0,0.85,0.85,0,0.85,0.85);
 	if (use) then
-		GameTooltip:AddLine(" 鼠标单击：取消该策略",0.65,0.55,0,1);
+		GameTooltip:AddLine(" Mouse click: Cancel the policy",0.65,0.55,0,1);
 	else
-		GameTooltip:AddLine(" 鼠标单击：激活该策略",0.65,0.55,0,1);
+		GameTooltip:AddLine(" Mouse click: Activate the policy",0.65,0.55,0,1);
 	end
 	GameTooltip:Show();
 end

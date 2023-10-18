@@ -31,7 +31,7 @@
           </Anchors>
           <TexCoords left="0.2" right="0.8" top="0" bottom="0.6" />
         </Texture>
-        <FontString name="$parentTitleLabel" font="Fonts\ZYHei.TTF" text="完成任务选择奖励">
+        <FontString name="$parentTitleLabel" font="Fonts\ZYHei.TTF" text="Select rewards for completing tasks">
           <Size>
             <AbsDimension x="280" y="0" />
           </Size>

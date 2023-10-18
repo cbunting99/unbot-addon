@@ -34,9 +34,9 @@ function ShowQuestReward(name, items)
 	qrFrame.showTick = GetTime();
 	local qrLabel = _G[qrFrame:GetName().."TitleLabel"];
 	if (qrLabel ~= nil) then
-		qrLabel:SetText(name.." |cffcccc00完成任务选择奖励|r");
+		qrLabel:SetText(name.." |cffcccc00Select rewards for completing tasks|r");
 	else
-		DisplayInfomation("完成任务奖励面板Label "..qrFrame:GetName().."TitleLabel 未找到，设置玩家名失败 "..name);
+		DisplayInfomation("Complete mission reward panel Label "..qrFrame:GetName().."TitleLabel Not found, failed to set player name "..name);
 	end
 	local qrBar = _G[qrFrame:GetName().."TickBar"];
 	if (qrBar ~= nil) then
@@ -84,7 +84,7 @@ function UnBotShowQuestRewardTips(self, item)
 		else
 			GameTooltip:AddLine(item[5],1,0,0,1);
 			GameTooltip:AddLine(" ",1,1,1,1);
-			GameTooltip:AddLine("该道具没有在你的客户端出现过，需要等待片刻查询服务器后再次将鼠标移动到这个道具上。",1,0,0,1);
+			GameTooltip:AddLine("This prop has not appeared on your client. You need to wait for a moment to query the server and then move the mouse to this prop again.",1,0,0,1);
 		end
 	else
 		GameTooltip:SetHyperlink("item:"..tostring(item[1])..":0:0:0:0:0:0:0");
@@ -92,7 +92,7 @@ function UnBotShowQuestRewardTips(self, item)
 
 	if (self.item[2] == false) then
 		GameTooltip:AddLine(" ",1,1,1,1);
-		GameTooltip:AddLine("鼠标左键单击：让 "..item[3].." 选择这个任务奖励",1,0,0,1);
+		GameTooltip:AddLine("Left mouse click: Let "..item[3].." Select this mission reward",1,0,0,1);
 	end
 	GameTooltip:Show();
 end

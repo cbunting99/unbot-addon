@@ -40,7 +40,7 @@
 					if (UnitInParty(self.unit[1]) == nil and UnitInRaid(self.unit[1]) == nil) then
 						InviteUnit(self.unit[1]);
 					else
-						DisplayInfomation(self.unit[1].."已经在你的队伍中了。");
+						DisplayInfomation(self.unit[1].."Already on your team.");
 					end
 				end
 			end
@@ -103,7 +103,7 @@
           </Anchors>
           <TexCoords left="0.2" right="0.8" top="0" bottom="0.6" />
         </Texture>
-        <FontString name="$parentTitleString" font="Fonts\ZYHei.TTF" text="挑选机器人上线">
+        <FontString name="$parentTitleString" font="Fonts\ZYHei.TTF" text="Select robot to go online">
           <Size>
             <AbsDimension x="140" y="0" />
           </Size>
@@ -167,7 +167,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentLabel" font="Fonts\ZYHei.TTF" text="鼠标左键点击让机器人上线，鼠标右键点击邀请它加入队伍">
+            <FontString name="$parentLabel" font="Fonts\ZYHei.TTF" text="Click the left mouse button to bring the robot online, and right click to invite it to join the team.">
               <Anchors>
                 <Anchor point="TOPLEFT" />
                 <Anchor point="BOTTOMRIGHT" />
@@ -262,7 +262,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会战士">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="union fighters">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -299,7 +299,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="好友名单">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="friends list">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -336,7 +336,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会圣骑士">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="Guild Paladin">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -373,7 +373,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会盗贼">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="union thieves">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -410,7 +410,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会德鲁伊">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="Guild Druid">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -447,7 +447,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会猎人">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="union hunter">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -484,7 +484,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会萨满">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="Guild Shaman">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -521,7 +521,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会法师">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="Guild Mage">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -558,7 +558,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会术士">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="Guild Warlock">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -595,7 +595,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会牧师">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="union chaplain">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>
@@ -632,7 +632,7 @@
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="工会死亡骑士">
+            <FontString name="$parentText" font="Fonts\ZYHei.TTF" text="Guild Death Knight">
               <Anchors>
                 <Anchor point="LEFT" relativePoint="RIGHT">
                   <Offset>

@@ -90,7 +90,7 @@ function UnBotInitInspectFrame()
 		EquipInventoryFrame:SetPoint("CENTER", ipdf, "CENTER", -10, 0);
 		EquipInventoryFrame:Hide();
 	end
-	DisplayInfomation("嵌入模块到角色查看窗口完成。");
+	DisplayInfomation("Embedding the module into the character viewing window is completed。");
 end
 
 function UnBotInspectFrameCanOperator()
@@ -155,7 +155,7 @@ function UnBotInspectPaperDollFrame_OnShow(...)
 		dstFrame.ubHelpText = dstFrame:CreateFontString(dstFrame:GetName().."UnBotHelp","ARTWORK");
 		dstFrame.ubHelpText:SetFont([[Fonts\ZYHei.ttf]],12);
 		dstFrame.ubHelpText:SetTextColor(0,0.8,0.8,1);
-		dstFrame.ubHelpText:SetText("在装备槽中:鼠标左键点击更换装备,鼠标右键点击卸下装备");
+		dstFrame.ubHelpText:SetText("in the equipment slot:Click the left mouse button to change equipment,Right click on the mouse to remove the equipment");
 		dstFrame.ubHelpText:SetPoint("TOP",dstFrame,"TOP",15,-58);
 		dstFrame.ubHelpText:SetShadowColor(0,0,0);
 		dstFrame.ubHelpText:SetShadowOffset(1,-1);
