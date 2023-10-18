@@ -1,16 +1,19 @@
 ## UnBot for AzerothCore Module
 
-一个基于 UnBot 插件修改的机器人控制插件，作为 AzerothCore 机器人模组的配套插件，方便玩家控制机器人
+/// I am working on translating to English. However, I dont know Chinese..
 
-目前仅对中文客户端有较好支持。
 
-安装方式：将 UnBot 和 YssBossLoot 放至 Interface/AddOns/ 目录下
+A robot control plug-in modified based on the UnBot plug-in. As a supporting plug-in for the AzerothCore robot module, it is convenient for players to control robots.
 
-插件界面展示：
+Currently, it only has good support for Chinese clients.
+
+Installation method: Place UnBot and YssBossLoot in the Interface/AddOns/ directory
+
+Plug-in interface display:
 
 ![](docs/display.png)
 
-添加指定职业机器人：
+Add a specified professional robot:
 
 ![](docs/addclass.png)
 
