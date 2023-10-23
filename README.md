@@ -1,5 +1,9 @@
 ## UnBot for AzerothCore Module
 
+This addon was created for use with azerothcore-wotlk version with the playerbots.
+
+https://github.com/liyunfan1223/azerothcore-wotlk/tree/Playerbot
+
 ///////////////////////////////////////
 
 **I am working on translating this addon to English for a small project, however, I dont speak or read chinese.**
@@ -23,6 +27,5 @@ Installation method: Place UnBot and YssBossLoot in the Interface/AddOns/ direct
 **Add a specified Bot:**
 
 ![](docs/addclass.jpg)
-
 
 
