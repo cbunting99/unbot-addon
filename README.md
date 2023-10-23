@@ -8,7 +8,7 @@ I am working on translating this addon to English for a small project, however, 
 
 A robot control plug-in modified based on the UnBot plug-in. As a supporting plug-in for the AzerothCore robot module, it is convenient for players to control robots.
 
-Currently, it only has good support for Chinese clients.
+As of now, this no longer supports Chinese Clients.
 
 Installation method: Place UnBot and YssBossLoot in the Interface/AddOns/ directory
 
