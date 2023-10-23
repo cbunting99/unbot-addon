@@ -28,4 +28,7 @@ Installation method: Place UnBot and YssBossLoot in the Interface/AddOns/ direct
 
 ![](docs/addclass.jpg)
 
+The original mangosbots addon doesn't work with the AzerothCore Module version of the player bots. Seems some commands are missing or 
+maybe just were not added. This addon has some quirks and i've not fixed anything at this point, I simply translated what I could.
+
 
