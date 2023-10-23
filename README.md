@@ -1,6 +1,6 @@
 ## UnBot for AzerothCore Module
 
-This addon was created for use with azerothcore-wotlk version with the playerbots.
+This addon is for use with azerothcore-wotlk version with the playerbots. (AzerothCore Modules Page)
 
 https://github.com/liyunfan1223/azerothcore-wotlk/tree/Playerbot
 
